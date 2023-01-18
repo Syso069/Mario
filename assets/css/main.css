@@ -1,0 +1,24 @@
+.container {
+    margin: 6em 2em;
+    display: flex;
+}
+
+.container__descricao {
+    color: var(--branco);
+    font-weight: 300;
+    width: 50%;
+    margin: 2em 0;
+}
+
+.botao {
+    color: var(--branco);
+    border-radius: 30px;
+    background-color: var(--vermelho);
+    padding: 0.7em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.botao:hover {
+    background-color: var(--vermelho-escuro);
+}

@@ -1,0 +1,18 @@
+@import url(video.css);
+@import url(header.css);
+@import url(main.css);
+
+:root {
+    --font-principal: "Poppins";
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --vermelho: #FF0021;
+    --vermelho-escuro: #CC0000;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: var(--font-principal);
+    font-size: 20px;
+    font-weight: 500;
+}

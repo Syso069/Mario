@@ -1,0 +1,24 @@
+.cabecalho, 
+.menu__lista {
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    width: 15%;
+}
+
+.menu__itens {
+    color: var(--branco);
+    font-size: 25px;
+    padding-left: 2em;
+}
+
+.menu__itens:hover {
+    border-radius: 30px;
+    background-color: var(--vermelho);
+    padding: 0.5em;
+    margin-left: 2em;
+}
