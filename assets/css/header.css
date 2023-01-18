@@ -13,7 +13,8 @@
 .menu__itens {
     color: var(--branco);
     font-size: 25px;
-    padding-left: 2em;
+    margin-left: 2em;
+    transition: 0.5s
 }
 
 .menu__itens:hover {
