@@ -8,7 +8,7 @@
 
 > Mario é uma aplicação Front-end (responsivo).
 
-> A aplicação consiste em um site sobre o Mario.
+> A aplicação consiste em um site sobre o Mario onde temos interação com hover e botões que levam para outras páginas.
 
 # Status do projeto
 
