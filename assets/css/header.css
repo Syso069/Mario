@@ -7,7 +7,7 @@
 }
 
 .cabecalho__logo {
-    width: 15%;
+    width: 10%;
 }
 
 .menu__itens {
@@ -22,4 +22,37 @@
     background-color: var(--vermelho);
     padding: 0.5em;
     margin-left: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cabecalho, 
+    .menu__lista {
+        padding: 2em;
+    }
+
+    .menu__lista {
+        font-size: 15px;
+    }
+
+    .cabecalho__logo {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+
+    .cabecalho, 
+    .menu__lista {
+        padding: 1em;
+    }
+
+    .menu__lista {
+        font-size: 10px;
+    }
+
+    .cabecalho__logo {
+        width: 20%;
+    }
+    
 }

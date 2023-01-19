@@ -3,4 +3,27 @@
 	z-index: -1000;
     width: 100%;
     opacity: 15%;
+    
 }
+
+@media screen and (max-width: 1024px) {
+    .video {
+        width: 1024%;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .video {
+        width: 728%;
+    }
+}
+
+@media screen and (max-width: 428px){
+   .video {
+    width: 428%;
+   }
+}
+
+
+
+

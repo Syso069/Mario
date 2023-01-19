@@ -22,3 +22,74 @@
 .botao:hover {
     background-color: var(--vermelho-escuro);
 }
+
+@media screen and (max-width: 1024px) {
+    
+    .container {
+        display: block;
+        width: 100%;
+        margin: auto 0.5em;
+        padding: 2em 0;
+        text-align: center;
+    }
+    
+    .container__informacoes {
+        width: 100%;
+    }
+
+    .imagem__informacoes {
+        width: 90%;
+        margin: 4em 0 1em 0;
+    }
+
+    .container__descricao {
+        margin: auto;
+        padding: 3em;
+        width: 80%;
+    }
+
+    .botao {
+        font-size: 18px;
+        margin: 2em;
+    }
+
+    .container__imagem {
+        width: 90%;
+        padding: 3em 0;
+    }
+}
+
+@media screen and (max-width: 428px) {
+
+    .container {
+        display: block;
+        width: 100%;
+        margin: auto 0.5em;
+        padding: 2em 0;
+        text-align: center;
+    }
+    
+    .container__informacoes {
+        width: 100%;
+    }
+
+    .imagem__informacoes {
+        width: 70%;
+    }
+
+    .container__descricao {
+        margin: auto;
+        padding: 2em;
+        width: 70%;
+    }
+
+    .botao {
+        font-size: 15px;
+        padding: 0.35;
+    }
+
+    .container__imagem {
+        width: 70%;
+        padding: 2em 0;
+    }
+}
